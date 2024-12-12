@@ -5,73 +5,66 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
     vec![
         Product {
             id: 1,
-            name: "Contoso Catnip's Friend".to_string(),
-            price: 9.99,
-            description: "Watch your feline friend embark on a fishing adventure with Contoso Catnip's Friend toy. Packed with irresistible catnip and dangling fish lure.".to_string(),
-            image: "/catnip.jpg".to_string()
+            name: "Contoso Ultra HD 4K TV".to_string(),
+            price: 499.99,
+            description: "Experience stunning picture quality with the Contoso Ultra HD 4K TV. Featuring vibrant colors, crisp details, and a sleek design to enhance your living room.".to_string(),
+            image: "/4ktv.jpg".to_string()
         },
         Product {
             id: 2,
-            name: "Salty Sailor's Squeaky Squid".to_string(),
-            price: 6.99,
-            description: "Let your dog set sail with the Salty Sailor's Squeaky Squid. This interactive toy provides hours of fun, featuring multiple squeakers and crinkle tentacles.".to_string(),
-            image: "/squid.jpg".to_string()
+            name: "Contoso Wireless Noise-Canceling Headphones".to_string(),
+            price: 199.99,
+            description: "Immerse yourself in pure audio with Contoso Wireless Noise-Canceling Headphones. Enjoy up to 30 hours of battery life and superior sound quality.".to_string(),
+            image: "/headphones.jpg".to_string()
         },
         Product {
             id: 3,
-            name: "Mermaid's Mice Trio".to_string(),
-            price: 12.99,
-            description: "Entertain your kitty with the Mermaid's Mice Trio. These adorable plush mice are dressed as mermaids and filled with catnip to captivate their curiosity.".to_string(),
-            image: "/mermaid.jpg".to_string()
+            name: "Contoso Smart Home Hub".to_string(),
+            price: 89.99,
+            description: "Control your smart home devices seamlessly with the Contoso Smart Home Hub. Compatible with major brands, offering voice control and easy setup.".to_string(),
+            image: "/smarthub.jpg".to_string()
         },
         Product {
             id: 4,
-            name: "Ocean Explorer's Puzzle Ball".to_string(),
-            price: 11.99,
-            description: "Challenge your pet's problem-solving skills with the Ocean Explorer's Puzzle Ball. This interactive toy features hidden compartments and treats, providing mental stimulation and entertainment.".to_string(),
-            image: "/ocean.jpg".to_string()
-        },
-        Product {
-            id: 5,
-            name: "Pirate Parrot Teaser Wand".to_string(),
-            price: 8.99,
-            description: "Engage your cat in a playful pursuit with the Pirate Parrot Teaser Wand. The colorful feathers and jingling bells mimic the mischievous charm of a pirate's parrot.".to_string(),
-            image: "/pirate.jpg".to_string()
+            name: "Contoso Gaming Laptop".to_string(),
+            price: 999.99,
+            description: "Level up your gaming experience with the Contoso Gaming Laptop. Powered by the latest graphics technology and a high-refresh-rate display.".to_string(),
+            image: "/gaminglaptop.jpg".to_string()
         },
         Product {
             id: 6,
-            name: "Seafarer's Tug Rope".to_string(),
-            price: 14.99,
-            description: "Tug-of-war meets nautical adventure with the Seafarer's Tug Rope. Made from marine-grade rope, it's perfect for interactive play and promoting dental health in dogs.".to_string(),
-            image: "/tug.jpg".to_string()
+            name: "Contoso Smartwatch Pro".to_string(),
+            price: 249.99,
+            description: "Stay connected with the Contoso Smartwatch Pro. Track your fitness, receive notifications, and customize your watch face.".to_string(),
+            image: "/smartwatch.jpg".to_string()
         },
         Product {
             id: 7,
-            name: "Seashell Snuggle Bed".to_string(),
-            price: 19.99,
-            description: "Give your furry friend a cozy spot to curl up with the Seashell Snuggle Bed. Shaped like a seashell, this plush bed provides comfort and relaxation for cats and small dogs.".to_string(),
-            image: "/bed.jpg".to_string()
+            name: "Contoso 1TB External SSD".to_string(),
+            price: 119.99,
+            description: "Store your files securely with the Contoso 1TB External SSD. Fast transfer speeds and a durable design for on-the-go use.".to_string(),
+            image: "/externalssd.jpg".to_string()
         },
         Product {
             id: 8,
-            name: "Nautical Knot Ball".to_string(),
-            price: 7.99,
-            description: "Unleash your dog's inner sailor with the Nautical Knot Ball. Made from sturdy ropes, it's perfect for fetching, tugging, and satisfying their chewing needs.".to_string(),
-            image: "/knot.jpg".to_string()
+            name: "Contoso Wireless Keyboard and Mouse Combo".to_string(),
+            price: 39.99,
+            description: "Enhance your productivity with the Contoso Wireless Keyboard and Mouse Combo. Ergonomic design and long battery life for all-day comfort.".to_string(),
+            image: "/keyboardmouse.jpg".to_string()
         },
         Product {
             id: 9,
-            name: "Contoso Claw's Crabby Cat Toy".to_string(),
-            price: 3.99,
-            description: "Watch your cat go crazy for Contoso Claw's Crabby Cat Toy. This crinkly and catnip-filled toy will awaken their hunting instincts and provide endless entertainment.".to_string(),
-            image: "/crabby.jpg".to_string()
+            name: "Contoso Home Security Camera".to_string(),
+            price: 129.99,
+            description: "Keep your home secure with the Contoso Home Security Camera. Features HD video, night vision, and cloud storage support.".to_string(),
+            image: "/securitycamera.jpg".to_string()
         },
         Product {
             id: 10,
-            name: "Ahoy Doggy Life Jacket".to_string(),
-            price: 5.99,
-            description: "Ensure your furry friend stays safe during water adventures with the Ahoy Doggy Life Jacket. Designed for dogs, this flotation device offers buoyancy and visibility in style.".to_string(),
-            image: "/lifejacket.jpg".to_string()
+            name: "Contoso Fast Charging Power Bank".to_string(),
+            price: 29.99,
+            description: "Stay powered on the go with the Contoso Fast Charging Power Bank. Compact design with multiple ports and fast charging technology.".to_string(),
+            image: "/powerbank.jpg".to_string()
         }
     ]
 }
